@@ -57,7 +57,7 @@
 - (RACSignal *)fetchProductWithPageIndex:(NSNumber *)page {
     
     NSDictionary *params = @{
-                             @"type":@"3",
+                             @"type":@"10",
                              @"page":page,
                              @"pagesize":@"100"
                              };
